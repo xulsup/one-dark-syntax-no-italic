@@ -1,16 +1,17 @@
 {
-  "name": "one-dark-syntax",
+  "name": "one-dark-syntax-no-italic",
   "theme": "syntax",
-  "version": "1.8.4",
-  "description": "A dark syntax theme",
+  "version": "0.0.1",
+  "repository":"https://github.com/xulsup/one-dark-syntax-no-italic",
+  "publisher":"xulsup",
+  "description": "A dark syntax theme with no italic",
   "keywords": [
     "dark",
     "blue",
     "syntax"
   ],
-  "repository": "https://github.com/atom/one-dark-syntax",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "vscode": "^1.0.0"
   }
 }

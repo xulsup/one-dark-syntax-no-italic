@@ -2,7 +2,7 @@
 
 .syntax--comment {
   color: @mono-3;
-  font-style: italic;
+  font-style: normal;
 
   .syntax--markup.syntax--link {
     color: @mono-3;
@@ -44,6 +44,7 @@
   color: @hue-3;
 
   &.syntax--type {
+
     &.syntax--annotation,
     &.syntax--primitive {
       color: @hue-3;
@@ -51,6 +52,7 @@
   }
 
   &.syntax--modifier {
+
     &.syntax--package,
     &.syntax--import {
       color: @mono-1;
@@ -97,7 +99,8 @@
 .syntax--string {
   color: @hue-4;
 
-  > .syntax--source, .syntax--embedded {
+  >.syntax--source,
+  .syntax--embedded {
     color: @mono-1;
   }
 
@@ -139,10 +142,6 @@
       font-weight: bold;
     }
 
-    &.syntax--italic {
-      color: @hue-3;
-      font-style: italic;
-    }
   }
 
   &.syntax--section {
@@ -167,7 +166,7 @@
     color: @hue-1;
   }
 
-  &.syntax--function  {
+  &.syntax--function {
     color: @hue-1;
 
     &.syntax--any-method {
@@ -254,12 +253,13 @@
 
 .syntax--invalid {
   &.syntax--deprecated {
-    color: @syntax-deprecated-fg !important;
-    background-color: @syntax-deprecated-bg !important;
+    color: @syntax-deprecated-fg  !important;
+    background-color: @syntax-deprecated-bg  !important;
   }
+
   &.syntax--illegal {
-    color: @syntax-illegal-fg !important;
-    background-color: @syntax-illegal-bg !important;
+    color: @syntax-illegal-fg  !important;
+    background-color: @syntax-illegal-bg  !important;
   }
 }
 
@@ -279,10 +279,6 @@
     color: @hue-5;
   }
 
-  &.syntax--italic {
-    color: @hue-3;
-    font-style: italic;
-  }
 
   &.syntax--heading {
     color: @hue-5;
